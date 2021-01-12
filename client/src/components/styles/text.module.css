@@ -1,0 +1,12 @@
+.textP {
+    color: var(--textColorButton);
+    margin: 5px 20px 5px 20px;
+}
+.textH1 {
+    color: var(--textColorButton);
+    font-size: 40px;
+}
+.textP{
+    color: var(--textColorButton);
+    font-size: 18px;
+}
