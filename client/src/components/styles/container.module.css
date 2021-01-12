@@ -30,9 +30,11 @@
 }
 .containerH1 {
     position: absolute;
-    top: 150px;
-    left: 75px;
+    top: 40%;
+    bottom: 60%;
+    left: 30px;
 }
+
 /* Seccion Proyectos */
 .containerSectionMain{
     width: 100%;
@@ -48,18 +50,20 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 15px 0;
-    
+    padding: 20px 0;
 }
 .containerSectionProjectsDiv {
-    min-width: 400px;
-    max-width: 700px;
-    width: 100%;
+    /* min-width: 300px;
+    max-width: 600px; */
+    width: 75%;
     height: 100%;
+    padding: 0 10px;
 }
 .containerSectionProjects img {
-    max-width: 200px;
+    max-width: 150px;
     width: 100%;
+    height: 150px;
+    margin: auto auto;
 }
 
 /* Seccion mySkill */
@@ -126,7 +130,6 @@
     width: 100%;
     max-height: 500px;
     height: 100%;
-    /* cuidado lo de flex */
     display: flex;
     justify-content: center;
 }
@@ -168,7 +171,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height: 30px;
+    height: 35px;
     border-radius: 50px;
     outline: none;
     border: none;

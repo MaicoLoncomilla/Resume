@@ -2,17 +2,20 @@ import React from 'react';
 import sContainer from '../styles/container.module.css';
 import sText from '../styles/text.module.css';
 import { arrayFront, arrayBack } from '../utils/array';
+import { useSelector } from 'react-redux';
 
 export default function MySkill() {
 
+    const active = useSelector(state => state.active)
+
     return (
         <section className={sContainer.containerSectionMySkill}>
-            <h2 className={sText.textMySkill}>My Skills</h2>
+            <h2 className={sText.textMySkill}>{active ? "Habilidades" : "My Skills"}</h2>
             <div className={sContainer.containerSectionFrontBack}>
                 <div className={sContainer.containerMainProgress}>
                     <h2 className={sText.textMySkillFrontBack}>Front End</h2>
-                    {arrayFront.map(el =>
-                        <div className={sContainer.containerProgress}>
+                    {arrayFront.map((el, index) =>
+                        <div className={sContainer.containerProgress} key={index}>
                             <div>
                                 <label>{el.title}</label>
                                 <label>{el.value}%</label>
@@ -24,8 +27,8 @@ export default function MySkill() {
                 </div>
                 <div className={sContainer.containerMainProgress}>
                     <h2 className={sText.textMySkillFrontBack}>Back End</h2>
-                    {arrayBack.map(el =>
-                        <div className={sContainer.containerProgress}>
+                    {arrayBack.map((el, index) =>
+                        <div className={sContainer.containerProgress} key={index}>
                             <div>
                                 <label>{el.title}</label>
                                 <label>{el.value}%</label>

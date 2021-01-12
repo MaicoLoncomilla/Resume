@@ -21,7 +21,8 @@ export const arrayProjects = [
     {
         direction: 'row',
         title: 'Wultur',
-        description: 'This is a student project we made as part of our education at Henry',
+        descriptionEn: 'This is a student project we made as part of our education at Henry',
+        descriptionEs: 'Este es un proyecto estudiantil, que hicimos como parte de nuestra educación en Henry',
         front: 'React Js, Redux, CSS (vanilla)',
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'PostgreSQL',
@@ -31,7 +32,8 @@ export const arrayProjects = [
     {
         direction: 'row-reverse',
         title: 'Wallet Fly',
-        description: 'This is a final project we made as part of our education at Henry',
+        descriptionEn: 'This is a final project we made as part of our education at Henry',
+        descriptionEs: 'Este es un proyecto final, que hicimos como parte de nuestra educación en Henry',
         front: 'React-Native, Redux-Persist, react-native-paper, Expo',
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'MySql, Firebase',
@@ -41,7 +43,8 @@ export const arrayProjects = [
     {
         direction: 'row',
         title: 'Facebook-clone',
-        description: 'My first Personal Projects in React Js',
+        descriptionEn: 'My first Personal Projects in React Js',
+        descriptionEs: 'Mi primer proyecto personal realizado en React Js',
         front: 'React Js, Redux, CSS (vanilla), JavaScript',
         back: '',
         database: 'Firebase',

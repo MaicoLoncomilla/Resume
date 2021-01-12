@@ -10,6 +10,11 @@
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.textH3 {
+    color: var(--textColorButton);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .textLabelH1{
     font-size: 16px;
     color: var(--backgroundButtonPrimary);
@@ -29,6 +34,6 @@
     margin-bottom: 10px;
 }
 .textLabel{
-    font-size: 16px;
+    font-size: 18px;
     color: var(--backgroundButtonPrimary);
 }
