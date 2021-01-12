@@ -1,41 +1,24 @@
 import React from 'react';
+import { arrayProjects } from '../utils/array';
 import Projects from './Projects';
+import sContainer from '../styles/container.module.css'
 
 export default function SectionProjects(){
+
     return (
-        <section>
-            <Projects
-                direction={"row"}
-                title={"Wultur"}
-                description={"This is a student project we made as part of our education at Henry"}
-                front={"React Js, Redux, CSS (vanilla)"}
-                back={"Node Js, Express, Passport, Sequelize"}
-                database={"PostgreSQL"}
-            />
-            <Projects
-                direction={"row-reverse"}
-                title={"Wultur"}
-                description={"This is a student project we made as part of our education at Henry"}
-                front={"React Js, Redux, CSS (vanilla)"}
-                back={"Node Js, Express, Passport, Sequelize"}
-                database={"PostgreSQL"}
-            />
-            <Projects
-                direction={"row"}
-                title={"Wultur"}
-                description={"This is a student project we made as part of our education at Henry"}
-                front={"React Js, Redux, CSS (vanilla)"}
-                back={"Node Js, Express, Passport, Sequelize"}
-                database={"PostgreSQL"}
-            />
-            <Projects
-                direction={"row-reverse"}
-                title={"Wultur"}
-                description={"This is a student project we made as part of our education at Henry"}
-                front={"React Js, Redux, CSS (vanilla)"}
-                back={"Node Js, Express, Passport, Sequelize"}
-                database={"PostgreSQL"}
-            />
+        <section className={sContainer.containerSectionMain}>
+            {arrayProjects && arrayProjects.map(el =>
+                <Projects
+                    direction={el.direction}
+                    title={el.title}
+                    description={el.description}
+                    front={el.front}
+                    back={el.back}
+                    database={el.database}
+                    link={el.link}
+                    image={el.image}
+                />
+            )}
         </section>
     )
 }

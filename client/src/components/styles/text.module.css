@@ -1,12 +1,34 @@
 .textP {
     color: var(--textColorButton);
-    margin: 5px 20px 5px 20px;
+    margin: 5px 10px 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 18px;
 }
 .textH1 {
     color: var(--textColorButton);
     font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.textP{
+.textLabelH1{
+    font-size: 16px;
+    color: var(--backgroundButtonPrimary);
+    font-size: 40px;
+}
+
+.textMySkill{
     color: var(--textColorButton);
-    font-size: 18px;
+    font-size: 35px;
+    text-align: center;
+}
+.textMySkillFrontBack{
+    color: var(--textColorButton);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.textLabel{
+    font-size: 16px;
+    color: var(--backgroundButtonPrimary);
 }

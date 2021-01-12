@@ -1,0 +1,19 @@
+.buttonLink {
+    background-color: var(--backgroundButtonPrimary);
+    padding: 5px 50px;
+    border-radius: 50px;
+    border: 1px solid var(--borderButtonSecondary);
+    margin-top: 15px;
+    height: 40px;
+    cursor: pointer;
+}  
+.aLink:visited{
+    color: var(--textColorButton);
+}
+.aLink{
+    text-decoration: none;
+}
+
+/* .buttonLink:link{
+    color: var(--textColorButton);
+} */
