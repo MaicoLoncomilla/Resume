@@ -37,3 +37,18 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
 }
+.iconEnable {
+    display: none;
+ 
+}
+@media (max-width: 525px) {
+    .iconEnable {
+        display: flex;
+        align-items: center;
+        color: var(--textColorButton);
+        height: 30px;
+    }
+    .containerNone{
+        display: none;
+    }
+}

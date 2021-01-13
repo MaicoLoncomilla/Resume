@@ -5,7 +5,6 @@ import sText from '../styles/text.module.css'
 import sButton from '../styles/button.module.css'
 import { useSelector } from 'react-redux';
 
-
 export default function SectionImg(){
 
     const active = useSelector(state => state.active)

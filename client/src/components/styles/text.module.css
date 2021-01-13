@@ -5,6 +5,14 @@
     cursor: pointer;
     font-size: 18px;
 }
+.textA{
+    color: var(--textColorButton);
+    margin: 5px 10px 5px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
 .textH1 {
     color: var(--textColorButton);
     font-size: 40px;
@@ -36,4 +44,17 @@
 .textLabel{
     font-size: 18px;
     color: var(--backgroundButtonPrimary);
+}
+
+@media (max-width: 525px) {
+    .textP {
+        font-size: 16px;
+    }
+    .textA{
+        font-size: 16px;
+    }
+    .textH1{
+        font-size: 30px;
+    }
+    
 }

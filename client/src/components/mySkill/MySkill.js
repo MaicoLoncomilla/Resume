@@ -9,7 +9,7 @@ export default function MySkill() {
     const active = useSelector(state => state.active)
 
     return (
-        <section className={sContainer.containerSectionMySkill}>
+        <section className={sContainer.containerSectionMySkill} id="section-mySkill">
             <h2 className={sText.textMySkill}>{active ? "Habilidades" : "My Skills"}</h2>
             <div className={sContainer.containerSectionFrontBack}>
                 <div className={sContainer.containerMainProgress}>

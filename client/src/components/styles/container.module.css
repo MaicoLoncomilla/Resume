@@ -14,7 +14,6 @@
     width: 100%;
     max-height: 600px;
     height: 100%;
-    /* cuidado lo de flex */
     display: flex;
     justify-content: center;
 }
@@ -53,8 +52,6 @@
     padding: 20px 0;
 }
 .containerSectionProjectsDiv {
-    /* min-width: 300px;
-    max-width: 600px; */
     width: 75%;
     height: 100%;
     padding: 0 10px;
@@ -178,4 +175,36 @@
     background-color: var(--backgroundButtonPrimary);
     color: var(--textColorButton);
     cursor: pointer;
+}
+.containerRedes {
+    direction: rtl;
+}
+.containerRedes a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: var(--backgroundButtonPrimary);
+    cursor: pointer;
+}
+
+/* SideBar */
+.containerEnable{
+    position: absolute;
+    margin-top: 30px;
+    z-index: 1;
+    background-color: var(--backgroundButtonPrimary);
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 525px) {
+    .containerH1 {
+        top: 20%;
+        left: 10px;
+    }
+    .containerSectionProjectsDiv{
+        width: 100%;
+    }
 }
