@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.2879f31c.chunk.css",
+    "main.js": "/Resume/static/js/main.a2df5a59.chunk.js",
+    "main.js.map": "/Resume/static/js/main.a2df5a59.chunk.js.map",
+    "runtime-main.js": "/Resume/static/js/runtime-main.5f13e2ca.js",
+    "runtime-main.js.map": "/Resume/static/js/runtime-main.5f13e2ca.js.map",
+    "static/js/2.fdf585cd.chunk.js": "/Resume/static/js/2.fdf585cd.chunk.js",
+    "static/js/2.fdf585cd.chunk.js.map": "/Resume/static/js/2.fdf585cd.chunk.js.map",
+    "static/js/3.e960a3ff.chunk.js": "/Resume/static/js/3.e960a3ff.chunk.js",
+    "static/js/3.e960a3ff.chunk.js.map": "/Resume/static/js/3.e960a3ff.chunk.js.map",
+    "index.html": "/Resume/index.html",
+    "static/css/main.2879f31c.chunk.css.map": "/Resume/static/css/main.2879f31c.chunk.css.map",
+    "static/js/2.fdf585cd.chunk.js.LICENSE.txt": "/Resume/static/js/2.fdf585cd.chunk.js.LICENSE.txt",
+    "static/media/Icon.79d707e0.png": "/Resume/static/media/Icon.79d707e0.png",
+    "static/media/facebook.c878f394.png": "/Resume/static/media/facebook.c878f394.png",
+    "static/media/imagenFondoContacto.d54f696d.jpg": "/Resume/static/media/imagenFondoContacto.d54f696d.jpg",
+    "static/media/posibleFondo.c6076e74.jpg": "/Resume/static/media/posibleFondo.c6076e74.jpg",
+    "static/media/wultur.f4b0bfc1.png": "/Resume/static/media/wultur.f4b0bfc1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f13e2ca.js",
+    "static/js/2.fdf585cd.chunk.js",
+    "static/css/main.2879f31c.chunk.css",
+    "static/js/main.a2df5a59.chunk.js"
+  ]
+}
