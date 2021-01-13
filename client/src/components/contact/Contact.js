@@ -22,7 +22,7 @@ export default function Contact(){
 
     const sendEmail = event => {
         event.preventDefault();
-        if (state.name == "" || state.lastName == "" || state.email == "" || state.asunto == "" || state.mensaje == "") {
+        if (state.name === "" || state.lastName === "" || state.email === "" || state.asunto === "" || state.mensaje === "") {
             if (active) {
                 return alert('Los campos no pueden estar vacios!')
             } else {
@@ -37,7 +37,7 @@ export default function Contact(){
                 return alert('Email is not Correct!')
             }
         }
-        axios.post('http://localhost:3001/api/form', state)
+        axios.post('https://proyectomaico.glitch.me/', state)
             .then(() => {
                 setState({
                     name: "",

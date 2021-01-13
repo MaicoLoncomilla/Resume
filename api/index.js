@@ -1,18 +1,19 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const sgMail = require('@sendgrid/mail')
 require('dotenv').config();
+const sgMail = require('@sendgrid/mail')
+sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 const app = express()
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}))
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
-      res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
     res.header('Access-Control-Allow-Credentials', 'true');
     res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
     next();
-  });
+});
 app.post('/api/form', (req, res) => {
     console.log(req.body)
     const { name, lastName, mensaje, email, asunto } = req.body
@@ -27,7 +28,7 @@ app.post('/api/form', (req, res) => {
     <h3>Mensaje:</h3>
     <p>${mensaje}</p>
     </div>`;
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY)
+
     return sgMail.send({
         from: "maicoloncomilla@gmail.com",
         to: "maicoloncomilla@gmail.com",
