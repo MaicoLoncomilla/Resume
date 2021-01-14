@@ -99,7 +99,6 @@ export default function Contact(){
                             onChange={e => handleTextChange("mensaje", e.target.value)}
                         />
                     </div>
-                    {/* <button  type="submit">{active ? "ENVIAR MENSAJE" : "SUBMIT MESSAGE"}</button> */}
                     <button type="submit" className={buttonSpinner ? sButton.button_loading : null}>
                         <span className={buttonSpinner ? sButton.span_loading : null}>
                             {active ? "ENVIAR MENSAJE" : "SUBMIT MESSAGE"}
