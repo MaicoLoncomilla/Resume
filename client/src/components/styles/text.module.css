@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 .textP {
     color: var(--textColorButton);
     margin: 5px 10px 5px 10px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 300;
     cursor: pointer;
     font-size: 18px;
     text-decoration: none;
@@ -9,7 +14,9 @@
 .textA{
     color: var(--textColorButton);
     margin: 5px 10px 5px 10px;
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 300;
     cursor: pointer;
     font-size: 18px;
     text-decoration: none;
@@ -20,13 +27,17 @@
 .textH1 {
     color: var(--textColorButton);
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
     /* margin-left: 20px; */
 }
 .textH3 {
     color: var(--textColorButton);
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
     /* margin-left: 20px; */
 }
 .textLabelH1{
