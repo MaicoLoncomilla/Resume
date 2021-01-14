@@ -7,7 +7,8 @@
     z-index: 1;
     width: 100%;
     justify-content: flex-end;
-    background-color: var(--backgroundButtonPrimary);
+    background-color: var(--backgroundSection);
+    border-bottom: 1px solid var(--backgroundButtonPrimary);
 }
 /* Seccion Imagen */
 .containerSection{
