@@ -17,8 +17,8 @@ export default function MySkill() {
                     {arrayFront.map((el, index) =>
                         <div className={sContainer.containerProgress} key={index}>
                             <div>
-                                <label>{el.title}</label>
-                                <label>{el.value}%</label>
+                                <label className={sText.labelTitleMySkill}>{el.title}</label>
+                                <label className={sText.labelTitleMySkill}>{el.value}%</label>
                             </div>
                             <progress max={100} value={el.value} />
                         </div>
@@ -30,8 +30,8 @@ export default function MySkill() {
                     {arrayBack.map((el, index) =>
                         <div className={sContainer.containerProgress} key={index}>
                             <div>
-                                <label>{el.title}</label>
-                                <label>{el.value}%</label>
+                                <label className={sText.labelTitleMySkill}>{el.title}</label>
+                                <label className={sText.labelTitleMySkill}>{el.value}%</label>
                             </div>
                             <progress max={100} value={el.value} />
                         </div>

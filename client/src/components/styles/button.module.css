@@ -5,17 +5,19 @@
     margin-top: 15px;
     height: 40px;
     cursor: pointer;
-}  
-.aLink:visited{
     color: var(--textColorButton);
-}
+    font-family: 'Balsamiq Sans', cursive;
+}  
 .aLink{
     text-decoration: none;
     padding: 5px 50px;
+    color: var(--textColorButton);
+    font-family: 'Balsamiq Sans', cursive;
 }
-.aLink:hover{
-    font-weight: 700;
+.aLink:visited{
+    color: var(--textColorButton);
 }
+
 .aLink2{
     width: 100%;
     padding: 0 auto;

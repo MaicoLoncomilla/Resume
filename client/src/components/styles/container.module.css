@@ -156,6 +156,7 @@
     border-radius: 5px;
     outline: none;
     border: none;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .containerInput textarea{
     width: 100%;
@@ -166,6 +167,7 @@
     padding: 5px 10px;
     outline: none;
     border: none;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .containerForm button{
     position: relative;
@@ -181,6 +183,7 @@
     color: var(--textColorButton);
     cursor: pointer;
     margin-bottom: 15px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .containerRedes {
     direction: rtl;

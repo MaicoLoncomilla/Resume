@@ -10,10 +10,10 @@ export default function Projects({ title, description, front, back, database, di
         <div className={sContainer.containerSectionProjects} style={{ flexDirection: direction }}>
             <img src={image} alt="image-project" />
             <div className={sContainer.containerSectionProjectsDiv}>
-                <p className={sText.textP}>{active ? "Titulo" : "Title"}
+                <p className={sText.textP}>{active ? "Titulo: " : "Title: "}
                     <label className={sText.textLabel}> {title}</label>
                 </p>
-                <p className={sText.textP}>{active ? "Descripción" : "Description"}
+                <p className={sText.textP}>{active ? "Descripción: " : "Description: "}
                     <label className={sText.textLabel}> {description}</label>
                 </p>
                 <p className={sText.textP}>FE:
@@ -22,11 +22,11 @@ export default function Projects({ title, description, front, back, database, di
                 <p className={sText.textP}>BE:
                     <label className={sText.textLabel}> {back}</label>
                 </p>
-                <p className={sText.textP}>{active ? "Base de Datos" : "Database"}
+                <p className={sText.textP}>{active ? "Base de Datos: " : "Database: "}
                     <label className={sText.textLabel}> {database}</label>
                 </p>
                 <p className={sText.textP}>{active ? "Codigo: " : "Code: "}
-                    <a href={linkGithub} className={sText.textP} target="_BLANK" rel="noopener noreferrer">{active ? "Click aqui" : "Click Here"}</a>
+                    <a href={linkGithub} className={sText.aTextA} target="_BLANK" rel="noopener noreferrer">{active ? "Click aqui" : "Click Here"}</a>
                 </p>
                 <button className={sButton.buttonLink}>
                     <a className={sButton.aLink} href={link} target="_BLANK" rel="noopener noreferrer">{active ? "ABRIR" : "OPEN"}</a>

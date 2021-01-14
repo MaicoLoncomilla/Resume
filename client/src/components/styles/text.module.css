@@ -2,32 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 .textP {
-    color: var(--textColorButton);
+    color: var(--backgroundButtonPrimary);
     margin: 5px 10px 5px 10px;
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'Balsamiq Sans', cursive;
     font-weight: 300;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.textLabel{
+    color: var(--textColorButton);
+    font-size: 18px;
+    text-decoration: none;  
+}
+.aTextA{
+    color: var(--textColorButton);
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.aTextA:visited{
+    color: var(--textColorButton);
     text-decoration: none;
 }
+/* SideBar */
 .textA{
-    color: var(--textColorButton);
     margin: 5px 10px 5px 10px;
-    /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Balsamiq Sans', cursive;
     font-weight: 300;
     cursor: pointer;
     font-size: 18px;
     text-decoration: none;
+    color: var(--textColorButton);
 }
 .textA:hover{
     font-weight: 700;
 }
+.Icon{
+    color: var(--textColorButton);
+}
 .textH1 {
     color: var(--textColorButton);
     font-size: 40px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
     /* margin-left: 20px; */
@@ -35,7 +50,6 @@
 .textH3 {
     color: var(--textColorButton);
     font-size: 25px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
     /* margin-left: 20px; */
@@ -45,12 +59,14 @@
     color: var(--textColorButtonSecondary);
     font-size: 40px;
     margin-bottom: 25px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 .textMySkill{
     color: var(--textColorButton);
     font-size: 35px;
     text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
 }
 .textMySkillFrontBack{
     color: var(--textColorButton);
@@ -58,15 +74,12 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Balsamiq Sans', cursive;
 }
-.textLabel{
-    font-size: 18px;
-    color: var(--backgroundButtonPrimary);
-    text-decoration: none;
+.labelTitleMySkill{
+    font-family: 'Balsamiq Sans', cursive;
 }
-.Icon{
-    color: var(--textColorSecondary);
-}
+
 
 @media (max-width: 525px) {
     .textP {
