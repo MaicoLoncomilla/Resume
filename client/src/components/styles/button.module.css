@@ -1,6 +1,5 @@
 .buttonLink {
     background-color: var(--backgroundButtonPrimary);
-    padding: 5px 50px;
     border-radius: 50px;
     border: 1px solid var(--borderButtonSecondary);
     margin-top: 15px;
@@ -12,6 +11,10 @@
 }
 .aLink{
     text-decoration: none;
+    padding: 5px 50px;
+}
+.aLink:hover{
+    font-weight: 700;
 }
 .button{
     max-width: 200px;

@@ -37,7 +37,7 @@ export const arrayProjects = [
         front: 'React-Native, Redux-Persist, react-native-paper, Expo',
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'MySql, Firebase',
-        link: 'https://google.com',
+        link: 'https://www.youtube.com/watch?v=eLRw2Gs2k_c&feature=youtu.be&ab_channel=maico',
         image: imageWalletFly
     },
     {
