@@ -27,7 +27,8 @@ export const arrayProjects = [
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'PostgreSQL',
         link: 'https://wultur.herokuapp.com/',
-        image: imageWultur
+        image: imageWultur,
+        linkGithub: "https://github.com/henry-labs/ecommerce-ft06-g08"
     },
     {
         direction: 'row-reverse',
@@ -38,7 +39,8 @@ export const arrayProjects = [
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'MySql, Firebase',
         link: 'https://www.youtube.com/watch?v=eLRw2Gs2k_c&feature=youtu.be&ab_channel=maico',
-        image: imageWalletFly
+        image: imageWalletFly,
+        linkGithub: "https://github.com/MaicoLoncomilla/Virtual-Wallet-"
     },
     {
         direction: 'row',
@@ -49,6 +51,7 @@ export const arrayProjects = [
         back: '',
         database: 'Firebase',
         link: 'https://maicoloncomilla.github.io/fb-clone/',
-        image: imageFacebook
+        image: imageFacebook,
+        linkGithub: "https://github.com/MaicoLoncomilla/fb-clone"
     }
 ]

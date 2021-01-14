@@ -19,6 +19,7 @@ export default function SectionProjects(){
                     database={el.database}
                     link={el.link}
                     image={el.image}
+                    linkGithub={el.linkGithub}
                 />
             )}
         </section>

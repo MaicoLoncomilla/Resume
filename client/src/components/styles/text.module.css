@@ -4,6 +4,7 @@
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
 }
 .textA{
     color: var(--textColorButton);
@@ -50,6 +51,7 @@
 .textLabel{
     font-size: 18px;
     color: var(--backgroundButtonPrimary);
+    text-decoration: none;
 }
 .Icon{
     color: var(--textColorSecondary);

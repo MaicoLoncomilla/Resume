@@ -23,7 +23,9 @@ export default function SectionImg(){
                 <h3 className={sText.textH3}>
                     <label> {active ? " y siempre aprendiendo algo nuevo." : " and always learning something new."}</label>
                 </h3>
-                <button className={sButton.button}>{active ? "Hablemos" : "Let's talk"}</button>
+                <button className={sButton.buttonLink}>
+                    <a className={sButton.aLink2}href="#section-contact" >{active ? "Hablemos" : "Let's talk"}</a>
+                </button>
             </div>
         </section>
     )
