@@ -36,6 +36,10 @@
     color: var(--textColorButton);
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
+    margin-right: 20px;
+}
+.changeLanguage:hover{
+    font-weight: 700;
 }
 .iconEnable {
     display: none;

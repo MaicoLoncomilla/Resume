@@ -13,6 +13,9 @@
     font-size: 18px;
     text-decoration: none;
 }
+.textA:hover{
+    font-weight: 700;
+}
 .textH1 {
     color: var(--textColorButton);
     font-size: 40px;
@@ -58,3 +61,5 @@
     }
     
 }
+/* #273487, #1d0d3e */
+/* este #1d0c3d o este #1f2062 */

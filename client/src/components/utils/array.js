@@ -21,8 +21,8 @@ export const arrayProjects = [
     {
         direction: 'row',
         title: 'Wultur',
-        descriptionEn: 'This is a student project we made as part of our education at Henry',
-        descriptionEs: 'Este es un proyecto estudiantil, que hicimos como parte de nuestra educación en Henry',
+        descriptionEn: 'This is a student project we made as part of our education at Henry. This project consist of showing and managing the purchase of programming courses. The user will be able to enter the app, buy and make the payment in Paypal.',
+        descriptionEs: 'Este es un proyecto estudiantil, que hicimos como parte de nuestra educación en Henry. \n Este proyecto consiste en mostrar y gestionar la compra de cursos de programación. El usuario podra desde ingresar a la App, comprar y realizar el pago en Paypal.',
         front: 'React Js, Redux, CSS (vanilla)',
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'PostgreSQL',
@@ -32,8 +32,8 @@ export const arrayProjects = [
     {
         direction: 'row-reverse',
         title: 'Wallet Fly',
-        descriptionEn: 'This is a final project we made as part of our education at Henry',
-        descriptionEs: 'Este es un proyecto final, que hicimos como parte de nuestra educación en Henry',
+        descriptionEn: 'This is a final project we made as part of our education at Henry. \n In this Virtual Wallet you can enter and recharge money to your account, from an emulation of the "PagoFacil" service. \n You can also send money to your contacts. \n You can upload photos from your cell phone, and also activate the fingerprint to add security to the app.',
+        descriptionEs: 'Este es el proyecto final, que hicimos como parte de nuestra educación en Henry. \n En esta Billetera Virtual puedes recargar dinero a tu cuenta, desde una emulación del servicio de "PagoFacil". Ademas podras enviar dinero a tus contactos, puedes subir fotos desde tu celular, y tambien activar la huella digital para añadir seguridad a la App.',
         front: 'React-Native, Redux-Persist, react-native-paper, Expo',
         back: 'Node Js, Express, Passport, Sequelize',
         database: 'MySql, Firebase',
@@ -43,8 +43,8 @@ export const arrayProjects = [
     {
         direction: 'row',
         title: 'Facebook-clone',
-        descriptionEn: 'My first Personal Projects in React Js',
-        descriptionEs: 'Mi primer proyecto personal realizado en React Js',
+        descriptionEn: "My first personal project made in React Js. \n In this project, you could login with your Google account, and create a post, and see other people's posts.",
+        descriptionEs: 'Mi primer proyecto personal realizado en React Js. \n En este proyecto, podrias loguearte con tu cuenta de Google, y crear un post, y ver los post de otras personas.',
         front: 'React Js, Redux, CSS (vanilla), JavaScript',
         back: '',
         database: 'Firebase',
