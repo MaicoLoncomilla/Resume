@@ -39,18 +39,18 @@ export default function Contact(){
         }
         axios.post('https://proyectomaico.glitch.me/', state)
             .then(() => {
-                setState({
-                    name: "",
-                    lastName: "",
-                    email: "",
-                    asunto: "",
-                    mensaje: "",
-                })
                 return alert("Email Enviado")
             })
             .catch(err => {
                 return console.log("Error! " + err)
             })
+        setState({
+            name: "",
+            lastName: "",
+            email: "",
+            asunto: "",
+            mensaje: "",
+        })
     }
     return (
         <footer className={sContainer.containerSectionFooter} id="section-contact">

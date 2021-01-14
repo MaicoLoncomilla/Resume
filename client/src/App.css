@@ -10,7 +10,8 @@
   --backgroundButtonSecondary: #1a1d22;
   --borderButtonSecondary: #d33140;
   --textColorButtonSecondary: #c8303e;
-
+  /* Text secondary blue */
+  --textColorSecondary: #273487;
 }
 *{
   margin: 0;

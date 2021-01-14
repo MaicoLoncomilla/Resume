@@ -20,16 +20,19 @@
     color: var(--textColorButton);
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-left: 20px; */
 }
 .textH3 {
     color: var(--textColorButton);
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-left: 20px; */
 }
 .textLabelH1{
     font-size: 16px;
-    color: var(--backgroundButtonPrimary);
+    color: var(--textColorButtonSecondary);
     font-size: 40px;
+    margin-bottom: 25px;
 }
 
 .textMySkill{
@@ -48,6 +51,9 @@
     font-size: 18px;
     color: var(--backgroundButtonPrimary);
 }
+.Icon{
+    color: var(--textColorSecondary);
+}
 
 @media (max-width: 525px) {
     .textP {
@@ -58,6 +64,10 @@
     }
     .textH1{
         font-size: 30px;
+        margin-left: 20px;
+    }
+    .textH3{
+        margin-left: 20px;
     }
     
 }

@@ -82,6 +82,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 .containerMainProgress {
     display: flex;
@@ -90,6 +91,7 @@
     max-width: 400px;
     min-width: 300px;
     width: 100%;
+    margin: 0 10px;
 }
 .containerProgress {
     display: flex;
@@ -139,12 +141,12 @@
     flex-direction: column;
     max-width: 600px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .containerInput {
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px 5px;
 }
 .containerInput input{
     max-width: 250px;
@@ -177,6 +179,7 @@
     background-color: var(--backgroundButtonPrimary);
     color: var(--textColorButton);
     cursor: pointer;
+    margin-bottom: 15px;
 }
 .containerRedes {
     direction: rtl;
@@ -191,20 +194,34 @@
 /* SideBar */
 .containerEnable{
     position: absolute;
-    margin-top: 30px;
+    margin-top: 250px;
     z-index: 1;
     background-color: var(--backgroundButtonPrimary);
     padding: 10px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+}
+.containerButton {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    /* border-bottom: 1px solid var(--textColorSecondary); */
+}
+.containerIconA{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 @media (max-width: 525px) {
     .containerH1 {
         top: 20%;
-        left: 10px;
+    
     }
     .containerSectionProjectsDiv{
         width: 100%;

@@ -19,8 +19,6 @@
 .button{
     max-width: 200px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
     height: 40px;
     border-radius: 50px;
@@ -30,6 +28,7 @@
     background-color: var(--backgroundButtonPrimary);
     color: var(--textColorButton);
     cursor: pointer;
+    margin-left: 20px;
 }
 .changeLanguage{
     outline: none;
@@ -44,18 +43,11 @@
 .changeLanguage:hover{
     font-weight: 700;
 }
+
 .iconEnable {
-    display: none;
- 
-}
-@media (max-width: 525px) {
-    .iconEnable {
-        display: flex;
-        align-items: center;
-        color: var(--textColorButton);
-        height: 30px;
-    }
-    .containerNone{
-        display: none;
-    }
+    display: flex;
+    align-items: center;
+    color: var(--textColorButton);
+    height: 30px;
+    margin-right: 30px;
 }
