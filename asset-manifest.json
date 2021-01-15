@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.11fc6dd8.chunk.css",
-    "main.js": "/Resume/static/js/main.51f9e530.chunk.js",
-    "main.js.map": "/Resume/static/js/main.51f9e530.chunk.js.map",
-    "runtime-main.js": "/Resume/static/js/runtime-main.1fd3ec1e.js",
-    "runtime-main.js.map": "/Resume/static/js/runtime-main.1fd3ec1e.js.map",
-    "static/js/2.0d1b5e25.chunk.js": "/Resume/static/js/2.0d1b5e25.chunk.js",
-    "static/js/2.0d1b5e25.chunk.js.map": "/Resume/static/js/2.0d1b5e25.chunk.js.map",
-    "static/js/3.92cebafc.chunk.js": "/Resume/static/js/3.92cebafc.chunk.js",
-    "static/js/3.92cebafc.chunk.js.map": "/Resume/static/js/3.92cebafc.chunk.js.map",
+    "main.css": "/Resume/static/css/main.8ca1f227.chunk.css",
+    "main.js": "/Resume/static/js/main.9c8b21b1.chunk.js",
+    "main.js.map": "/Resume/static/js/main.9c8b21b1.chunk.js.map",
+    "runtime-main.js": "/Resume/static/js/runtime-main.bbcc1756.js",
+    "runtime-main.js.map": "/Resume/static/js/runtime-main.bbcc1756.js.map",
+    "static/js/2.e263bbfd.chunk.js": "/Resume/static/js/2.e263bbfd.chunk.js",
+    "static/js/2.e263bbfd.chunk.js.map": "/Resume/static/js/2.e263bbfd.chunk.js.map",
+    "static/js/3.25ab29f9.chunk.js": "/Resume/static/js/3.25ab29f9.chunk.js",
+    "static/js/3.25ab29f9.chunk.js.map": "/Resume/static/js/3.25ab29f9.chunk.js.map",
     "index.html": "/Resume/index.html",
-    "static/css/main.11fc6dd8.chunk.css.map": "/Resume/static/css/main.11fc6dd8.chunk.css.map",
-    "static/js/2.0d1b5e25.chunk.js.LICENSE.txt": "/Resume/static/js/2.0d1b5e25.chunk.js.LICENSE.txt",
+    "static/css/main.8ca1f227.chunk.css.map": "/Resume/static/css/main.8ca1f227.chunk.css.map",
+    "static/js/2.e263bbfd.chunk.js.LICENSE.txt": "/Resume/static/js/2.e263bbfd.chunk.js.LICENSE.txt",
     "static/media/Icon.79d707e0.png": "/Resume/static/media/Icon.79d707e0.png",
     "static/media/facebook.c878f394.png": "/Resume/static/media/facebook.c878f394.png",
     "static/media/imagenFondoContacto.d54f696d.jpg": "/Resume/static/media/imagenFondoContacto.d54f696d.jpg",
+    "static/media/maicoloncomillaCV_English.b0f4bbcf.pdf": "/Resume/static/media/maicoloncomillaCV_English.b0f4bbcf.pdf",
+    "static/media/maicoloncomillaCV_Español.d3f49039.pdf": "/Resume/static/media/maicoloncomillaCV_Español.d3f49039.pdf",
     "static/media/posibleFondo.c6076e74.jpg": "/Resume/static/media/posibleFondo.c6076e74.jpg",
     "static/media/wultur.f4b0bfc1.png": "/Resume/static/media/wultur.f4b0bfc1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fd3ec1e.js",
-    "static/js/2.0d1b5e25.chunk.js",
-    "static/css/main.11fc6dd8.chunk.css",
-    "static/js/main.51f9e530.chunk.js"
+    "static/js/runtime-main.bbcc1756.js",
+    "static/js/2.e263bbfd.chunk.js",
+    "static/css/main.8ca1f227.chunk.css",
+    "static/js/main.9c8b21b1.chunk.js"
   ]
 }
