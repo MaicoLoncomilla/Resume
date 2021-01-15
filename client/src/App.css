@@ -1,17 +1,15 @@
 :root {
   --background: #111;
   --backgroundSection: #1a1d22;
-  /* Button con Background */
   --backgroundButtonPrimary: #f73445;
   --textColorButton: #fddadd;
   --textColorP: #fff;
-
-  /* Button sin background */
   --backgroundButtonSecondary: #1a1d22;
   --borderButtonSecondary: #d33140;
   --textColorButtonSecondary: #c8303e;
-  /* Text secondary blue */
-  --textColorSecondary: #273487;
+  --textColorSecondary: #140f21;
+  /* #273487, #1d0d3e */
+/* este #1d0c3d o este #1f2062 */
 }
 *{
   margin: 0;

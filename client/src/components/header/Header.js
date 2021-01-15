@@ -32,55 +32,51 @@ export default function Header(){
                 fontSize="large"
                 onClick={() => { setActiveSideBar(!activeSideBar) }}
                 className={sButton.iconEnable} />
+            <div
+                className={sContainer.containerButton}
+                onClick={() => changeLanguage()} >
+                <div className={sContainer.containerIconA}>
+                    <p className={sText.textA}>{active ? "English" : "Spanish"}</p>
+                    <LanguageIcon className={sText.Icon} />
+                </div>
+            </div>
             {activeSideBar &&
                 <div className={sContainer.containerEnable}>
                     <div className={sContainer.containerButton}>
+                        <ArrowRightIcon className={sText.Icon} />
                         <div className={sContainer.containerIconA}>
-                            <ListAltIcon className={sText.Icon}/>
                             <a
                                 href="#section-projects"
                                 onClick={() => setActiveSideBar(!activeSideBar)}
                                 className={sText.textA}>
                                 {active ? "Proyectos" : "My Projects"}
                             </a>
+                            <ListAltIcon className={sText.Icon} />
                         </div>
-                        <ArrowRightIcon className={sText.Icon}/>
                     </div>
                     <div className={sContainer.containerButton}>
+                        <ArrowRightIcon className={sText.Icon} />
                         <div className={sContainer.containerIconA}>
-                            <SchoolIcon className={sText.Icon}/>
                             <a
                                 href="#section-mySkill"
                                 onClick={() => setActiveSideBar(!activeSideBar)}
                                 className={sText.textA}>
                                 {active ? "Habilidades" : "My Skills"}
                             </a>
+                            <SchoolIcon className={sText.Icon} />
                         </div>
-                        <ArrowRightIcon className={sText.Icon}/>
                     </div>
                     <div className={sContainer.containerButton}>
+                        <ArrowRightIcon className={sText.Icon} />
                         <div className={sContainer.containerIconA}>
-                            <DraftsIcon className={sText.Icon}/>
                             <a
                                 href="#section-contact"
                                 onClick={() => setActiveSideBar(!activeSideBar)}
                                 className={sText.textA}>
                                 {active ? "Hablemos" : "Let's talk"}
                             </a>
+                            <DraftsIcon className={sText.Icon} />
                         </div>
-                        <ArrowRightIcon className={sText.Icon}/>
-                    </div>
-                    <div
-                        className={sContainer.containerButton}
-                        onClick={() => {
-                            changeLanguage();
-                            setActiveSideBar(!activeSideBar)
-                        }} >
-                        <div className={sContainer.containerIconA}>
-                            <LanguageIcon className={sText.Icon}/>
-                            <p className={sText.textA}>{active ? "English" : "Spanish"}</p>
-                        </div>
-                        <ArrowRightIcon className={sText.Icon}/>
                     </div>
                 </div>
             }

@@ -3,11 +3,11 @@
     position: fixed;
     display: flex;
     align-items: center;
+    direction: rtl;
     height: 40px;
     z-index: 1;
     width: 100%;
-    justify-content: flex-end;
-    background-color: var(--backgroundSection);
+    background-color: var(--textColorSecondary);
     border-bottom: 1px solid var(--backgroundButtonPrimary);
 }
 /* Seccion Imagen */
@@ -199,9 +199,10 @@
 /* SideBar */
 .containerEnable{
     position: absolute;
-    margin-top: 250px;
+    margin-top: 200px;
     z-index: 1;
-    background-color: var(--backgroundButtonPrimary);
+    /* background-color: #324c6c; */
+    background-color: #c8303e;
     padding: 10px;
     border-radius: 8px;
     display: flex;
@@ -221,6 +222,16 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+.iconButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: var(--backgroundButtonPrimary);
+    margin-right: 10px;
 }
 
 @media (max-width: 525px) {

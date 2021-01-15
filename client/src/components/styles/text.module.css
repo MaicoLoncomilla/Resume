@@ -45,14 +45,14 @@
     font-size: 40px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 }
 .textH3 {
     color: var(--textColorButton);
     font-size: 25px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 500;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 }
 .textLabelH1{
     font-size: 16px;
@@ -97,5 +97,3 @@
     }
     
 }
-/* #273487, #1d0d3e */
-/* este #1d0c3d o este #1f2062 */
