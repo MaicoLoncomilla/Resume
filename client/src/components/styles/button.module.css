@@ -66,6 +66,16 @@
     border-radius: 50%;
     animation: button_loading_spinner 1s ease infinite;
 }
+.buttonCV {
+    border: none;
+    outline: none;
+    color: var(--textColorButton);
+    background-color: transparent;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    margin: 0 15px 0px 10px;
+    cursor: pointer;
+}
 @keyframes button_loading_spinner {
     from {
         transform: rotate(0turn);

@@ -8,7 +8,7 @@ export default function SectionProjects(){
     const active = useSelector(state => state.active)
     return (
         <section className={sContainer.containerSectionMain} id="section-projects">
-            {arrayProjects && arrayProjects.map((el, index) => 
+            {arrayProjects?.map((el, index) => 
                 <Projects
                     key={index}
                     direction={el.direction}
