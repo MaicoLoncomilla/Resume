@@ -56,14 +56,14 @@
 }
 .textLabelH1{
     font-size: 16px;
-    color: var(--textColorButtonSecondary);
+    color: var(--backgroundButtonPrimary);
     font-size: 40px;
     margin-bottom: 25px;
     font-family: 'Balsamiq Sans', cursive;
 }
 
 .textMySkill{
-    color: var(--textColorButton);
+    color: var(--backgroundButtonPrimary);
     font-size: 35px;
     text-align: center;
     font-family: 'Balsamiq Sans', cursive;
