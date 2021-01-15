@@ -2,7 +2,8 @@
   --background: #111;
   --backgroundSection: #1a1d22;
   --backgroundButtonPrimary: #f73445;
-  --textColorButton: #fddadd;
+  /* --textColorButton: #fddadd; */
+  --textColorButton: #eeeeee;
   --textColorP: #fff;
   --backgroundButtonSecondary: #1a1d22;
   --borderButtonSecondary: #d33140;
