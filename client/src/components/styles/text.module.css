@@ -8,7 +8,8 @@
     cursor: pointer;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 .textLabel{
     color: var(--textColorButton);
@@ -18,7 +19,8 @@
 .aTextA{
     color: var(--textColorButton);
     text-decoration: none;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 .aTextA:visited{
     color: var(--textColorButton);
@@ -27,7 +29,8 @@
 /* SideBar */
 .textA{
     margin: 5px 10px 5px 10px;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 300;
     cursor: pointer;
     font-size: 18px;
@@ -59,14 +62,16 @@
     color: var(--backgroundButtonPrimary);
     font-size: 40px;
     margin-bottom: 25px;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .textMySkill{
     color: var(--backgroundButtonPrimary);
     font-size: 35px;
     text-align: center;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 .textMySkillFrontBack{
     color: var(--textColorButton);
@@ -74,10 +79,12 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 .labelTitleMySkill{
-    font-family: 'Balsamiq Sans', cursive;
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Rajdhani', sans-serif;
 }
 
 

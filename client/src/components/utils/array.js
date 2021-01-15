@@ -31,7 +31,7 @@ export const arrayProjects = [
         linkGithub: "https://github.com/henry-labs/ecommerce-ft06-g08"
     },
     {
-        direction: 'row-reverse',
+        direction: 'row',
         title: 'Wallet Fly',
         descriptionEn: 'This is a final project we made as part of our education at Henry. \n In this Virtual Wallet you can enter and recharge money to your account, from an emulation of the "PagoFacil" service. \n You can also send money to your contacts. \n You can upload photos from your cell phone, and also activate the fingerprint to add security to the app.',
         descriptionEs: 'Este es el proyecto final, que hicimos como parte de nuestra educación en Henry. \n En esta Billetera Virtual puedes recargar dinero a tu cuenta, desde una emulación del servicio de "PagoFacil". Ademas podras enviar dinero a tus contactos, puedes subir fotos desde tu celular, y tambien activar la huella digital para añadir seguridad a la App.',
