@@ -26,7 +26,6 @@ export default function Header(){
         })
     }
     return (
-
         <nav className={sContainer.containerHeader} >
             <DehazeIcon
                 fontSize="large"
@@ -81,30 +80,5 @@ export default function Header(){
                 </div>
             }
         </nav>
-
-        // <nav className={sContainer.containerHeader}>
-        //     <div className={sButton.containerNone}>
-        //         <a href="#section-projects" className={sText.textA}>{active ? "Proyectos" : "My Projects"}</a>
-        //         <a href="#section-mySkill" className={sText.textA}>{active ? "Habilidades" : "My Skills"}</a>
-        //         <a href="#section-contact" className={sText.textA}>{active ? "Hablemos" : "Let's talk"}</a>
-        //         <button onClick={() => changeLanguage()} className={sButton.changeLanguage}>{active ? "English" : "Spanish"}</button>
-        //     </div>
-        //     <div className={sButton.iconEnable} onClick={() => setActiveSideBar(!activeSideBar)}>
-        //         <DehazeIcon  fontSize="large"/>
-        //     </div>
-        //     {activeSideBar && 
-        //     <div className={sContainer.containerEnable}>
-        //         <a href="#section-projects" onClick={() => setActiveSideBar(!activeSideBar)} className={sText.textA}>{active ? "Proyectos" : "My Projects"}</a>
-        //         <a href="#section-mySkill" onClick={() => setActiveSideBar(!activeSideBar)} className={sText.textA}>{active ? "Habilidades" : "My Skills"}</a>
-        //         <a href="#section-contact" onClick={() => setActiveSideBar(!activeSideBar)} className={sText.textA}>{active ? "Hablemos" : "Let's talk"}</a>
-        //         <button
-        //             onClick={() => {
-        //                 changeLanguage();
-        //                 setActiveSideBar(!activeSideBar)
-        //             }} className={sButton.changeLanguage}>{active ? "English" : "Spanish"}
-        //         </button>
-        //     </div>
-        //     }
-        // </nav>
     )
 }
