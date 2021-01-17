@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import sContainer from '../styles/container.module.css';
 import sText from '../styles/text.module.css';
 import sButton from '../styles/button.module.css';
