@@ -13,13 +13,11 @@ export default function Header(){
 
     const { IDIOMA } = api;
     const active = useSelector(state => state.active);
-    const [ language, setLanguage ] = useState(active);
     const dispatch = useDispatch();
     const changeLanguage = () => {
-        setLanguage(!language)
         dispatch({
             type: IDIOMA,
-            payload: language
+            payload: !active
         })
     }
     return (
