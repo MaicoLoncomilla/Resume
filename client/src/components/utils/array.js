@@ -2,21 +2,6 @@ import imageWalletFly from '../../images/Icon.png';
 import imageWultur from '../../images/wultur.png';
 import imageFacebook from '../../images/facebook.png';
 
-export const arrayFront = [
-    { title: 'React Js', value: 80 },
-    { title: 'React Native', value: 60 },
-    { title: 'Redux', value: 85 },
-    { title: 'HTML', value: 75 },
-    { title: 'JavaScript', value: 70 },
-    { title: 'CSS', value: 80 }
-]
-
-export const arrayBack = [
-    { title: 'Node Js', value: 60 },
-    { title: 'Express', value: 70 },
-    { title: 'Sequelize', value: 70 },
-]
-
 export const arrayProjects = [
     {
         direction: 'row',
