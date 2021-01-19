@@ -18,7 +18,7 @@ export default function SectionImg(){
                     <label className={sText.textLabelH1}>{active ? " Desarrollador Web," : " Web Developer,"}</label>
                 </h1>
                 <h3 className={sText.textH3}>
-                    <label>{active ? " apasionado por lo que hago," : " passionate about what i do,"}</label>
+                    <label>{active ? " apasionado por lo que hago," : " passionate about what I do,"}</label>
                 </h3>
                 <h3 className={sText.textH3}>
                     <label> {active ? " y siempre aprendiendo algo nuevo." : " and always learning something new."}</label>
