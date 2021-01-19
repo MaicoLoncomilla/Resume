@@ -101,36 +101,6 @@
     width: 100%;
     margin: 0 10px;
 }
-/* .containerProgress {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 5px;
-}
-.containerProgress div {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.containerProgress label{
-    color: var(--textColorButton);
-}
-.containerProgress progress{
-    width: 100%;
-    background-color: transparent;
-}
-.containerProgress progress::-webkit-progress-value{
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-    background-color: var(--backgroundButtonPrimary);
-}
-.containerProgress progress::-webkit-progress-bar{
-    background-color:#DFE6E9;
-    height: 15px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-} */
 .imgIcons {
     display: flex;
     flex-wrap: wrap;

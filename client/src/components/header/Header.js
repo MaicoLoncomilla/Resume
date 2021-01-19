@@ -34,7 +34,8 @@ export default function Header(){
                 className={sContainer.containerFormHeader}
                 action={active ? cvEspañol : cvIngles}
                 method="GET"
-                target="_blank">
+                target="_blank"
+                >
                 <div className={sContainer.containerIconA}>
                     <DescriptionIcon className={sText.Icon} />
                     <button

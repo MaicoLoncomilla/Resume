@@ -20,17 +20,17 @@ export default function MySkill() {
                 <div className={sContainer.containerMainProgress}>
                     <h2 className={sText.textMySkillFrontBack}>Front End</h2>
                     <div className={sContainer.imgIcons}>
-                        <img src={react}/>
-                        <img src={redux}/>
-                        <img src={css}/>
-                        <img src={html}/>
-                        <img src={javascript}/>
+                        <img src={react} style={{width: 80}} alt="ReactJS React-Native"/>
+                        <img src={redux} style={{width: 80}} alt="Redux"/>
+                        <img src={css} style={{width: 80}} alt="CSS"/>
+                        <img src={html} style={{width: 80}} alt="HTML"/>
+                        <img src={javascript} style={{width: 55, padding: '0px 12.5px'}} alt="JavaScript"/>
                     </div>
                 </div>
                 <div className={sContainer.containerMainProgress}>
                     <h2 className={sText.textMySkillFrontBack}>Back End</h2>
                     <div className={sContainer.imgIconsBack}>
-                        <img src={node}/>
+                        <img src={node} alt="NodeJs"/>
                         <p className={sText.express}>Express</p>
                     </div>
                 </div>

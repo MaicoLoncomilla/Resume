@@ -68,7 +68,7 @@ export default function Contact(){
         })
     }
     return (
-        <footer className={sContainer.containerSectionFooter} id="section-contact" reset>
+        <footer className={sContainer.containerSectionFooter} id="section-contact">
             <div style={{ backgroundImage: `url(${fondoContacto})` }} className={sContainer.containerImg}></div>
             <form className={sContainer.containerForm} onSubmit={(e) => sendEmail(e)}>
                 <h3 className={sText.textLabelH1} style={{ textAlign: "center" }}>{active ? "Hablemos" : "Contact Me"}</h3>
