@@ -1,23 +1,18 @@
 :root {
   --background: #111;
   --backgroundSection: #1a1d22;
-  /* --backgroundButtonPrimary: #f73445; */
   --backgroundButtonPrimary: #f73445;
-  /* --textColorButton: #fddadd; */
   --textColorButton: #eeeeee;
   --textColorP: #fff;
   --backgroundButtonSecondary: #1a1d22;
   --borderButtonSecondary: #d33140;
   --textColorButtonSecondary: #c8303e;
   --textColorSecondary: #140f21;
-  /* #273487, #1d0d3e */
-/* este #1d0c3d o este #1f2062 */
 }
 *{
   margin: 0;
   padding: 0;
 }
-
 .App {
   background-color: var(--background);
   height: 100vh;
