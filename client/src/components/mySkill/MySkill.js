@@ -1,13 +1,13 @@
 import React from 'react';
-import sContainer from '../styles/container.module.css';
-import sText from '../styles/text.module.css';
+import sContainer from '../../styles/container.module.css';
+import sText from '../../styles/text.module.css';
 import { useSelector } from 'react-redux';
-import redux from '../../images/redux.png';
-import react from '../../images/React.svg';
-import css from '../../images/css.svg';
-import html from '../../images/html.svg';
-import javascript from '../../images/javascript.png';
-import node from '../../images/node.svg';
+import redux from '../../assets/images/redux.png';
+import react from '../../assets/images/React.svg';
+import css from '../../assets/images/css.svg';
+import html from '../../assets/images/html.svg';
+import javascript from '../../assets/images/javascript.png';
+import node from '../../assets/images/node.svg';
 
 export default function MySkill() {
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import sContainer from '../styles/container.module.css'
-import sText from '../styles/text.module.css'
-import sButton from '../styles/button.module.css'
+import sContainer from '../../styles/container.module.css'
+import sText from '../../styles/text.module.css'
+import sButton from '../../styles/button.module.css'
 import { useSelector } from 'react-redux';
 
 export default function Projects({ title, description, front, back, database, direction, link, image, linkGithub }) {

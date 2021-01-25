@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import fondoContacto from '../../images/imagenFondoContacto.jpg';
-import sContainer from '../styles/container.module.css';
-import sText from '../styles/text.module.css';
-import sButton from '../styles/button.module.css';
-import { useSelector } from 'react-redux';
+import fondoContacto from '../../assets/images/imagenFondoContacto.jpg';
+import sContainer from '../../styles/container.module.css';
+import sText from '../../styles/text.module.css';
+import sButton from '../../styles/button.module.css';
+import { useDispatch, useSelector } from 'react-redux';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import axios from 'axios';
 import { useAlert } from 'react-alert';
+import api from '../../redux/action-creator'
 
 export default function Contact(){
     const [ state, setState ] = useState({
@@ -17,11 +17,13 @@ export default function Contact(){
         asunto: "",
         mensaje: "",
     })
+    const dispatch = useDispatch()
     const active = useSelector(state => state.active);
-    const [ loadingButton, setloadingButton ] = useState(false);
+    const loadingButton = useSelector(state => state.loadingButton);
     const handleTextChange = (name, value) => {
         setState({ ...state, [name]: value });
       };
+    const { LOADINGBUTTON } = api
     const alert = useAlert()
     const sendEmail = event => {
         event.preventDefault();
@@ -41,24 +43,9 @@ export default function Contact(){
                 return alert.show('Email is not Correct!', { type: "error", timeout: 2500 })
             }
         }
-        setloadingButton(true)
-        axios.post('https://proyectomaico.glitch.me/', state)
-            .then(() => {
-                setloadingButton(false)
-                if (active) {
-                    return alert.show('Email enviado correctamente!', { type: "success", timeout: 2500 })
-                } else {
-                    return alert.show('Email sent successfully', { type: "success", timeout: 2500 })
-                }
-            })
-            .catch(err => {
-                setloadingButton(false)
-                if (active) {
-                    return alert.show(`Ocurrio un Error ${err}`, { type: "error", timeout: 2500 })
-                } else {
-                    return alert.show(`Error! ${err}`, { type: "error", timeout: 2500 })
-                }
-            })
+        dispatch({type: LOADINGBUTTON, payload: !loadingButton})
+        dispatch(api.sendEmail(state, alert, active))
+
         setState({
             name: "",
             lastName: "",

@@ -1,6 +1,6 @@
-import imageWalletFly from '../../images/Icon.png';
-import imageWultur from '../../images/wultur.png';
-import imageFacebook from '../../images/facebook.png';
+import imageWalletFly from '../../assets/images/Icon.png';
+import imageWultur from '../../assets/images/wultur.png';
+import imageFacebook from '../../assets/images/facebook.png';
 
 export const arrayProjects = [
     {

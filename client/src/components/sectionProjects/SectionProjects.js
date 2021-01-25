@@ -1,8 +1,9 @@
 import React from 'react';
-import { arrayProjects } from '../utils/array';
+import { arrayProjects } from '../../utils/mocks/array.js';
 import Projects from './Projects';
-import sContainer from '../styles/container.module.css'
+import sContainer from '../../styles/container.module.css';
 import { useSelector } from 'react-redux';
+
 export default function SectionProjects(){
 
     const active = useSelector(state => state.active)

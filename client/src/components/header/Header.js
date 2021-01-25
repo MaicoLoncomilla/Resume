@@ -1,13 +1,13 @@
 import React from 'react';
-import sContainer from '../styles/container.module.css';
-import sText from '../styles/text.module.css';
-import sButton from '../styles/button.module.css';
+import sContainer from '../../styles/container.module.css';
+import sText from '../../styles/text.module.css';
+import sButton from '../../styles/button.module.css';
 import { useDispatch, useSelector } from "react-redux";
 import api from '../../redux/action-creator';
 import LanguageIcon from '@material-ui/icons/Language';
 import DescriptionIcon from '@material-ui/icons/Description';
-import cvEspañol from '../../cv/maicoloncomillaCV_Español.pdf'
-import cvIngles from '../../cv/maicoloncomillaCV_English.pdf'
+import cvEspañol from '../../assets/cv/maicoloncomillaCV_Español.pdf';
+import cvIngles from '../../assets/cv/maicoloncomillaCV_English.pdf';
 
 export default function Header(){
 

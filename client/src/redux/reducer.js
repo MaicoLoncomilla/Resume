@@ -1,9 +1,10 @@
-import actionCreator from './action-creator'
+import actionCreator from './action-creator';
 
-const { IDIOMA } = actionCreator
+const { IDIOMA, LOADINGBUTTON } = actionCreator;
 
 const initialState = {
-    active: false
+    active: false,
+    loadingButton: false
 }
 
 const reducer = (state = initialState, action) => {
@@ -13,6 +14,11 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 active: action.payload
+            }
+        case LOADINGBUTTON:
+            return {
+                ...state,
+                loadingButton: action.payload
             }
         default:
             return {...state}

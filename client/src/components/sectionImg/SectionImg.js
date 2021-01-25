@@ -1,8 +1,8 @@
 import React from 'react';
-import fondo from '../../images/posibleFondo.jpg'
-import sContainer from '../styles/container.module.css'
-import sText from '../styles/text.module.css'
-import sButton from '../styles/button.module.css'
+import fondo from '../../assets/images/posibleFondo.jpg'
+import sContainer from '../../styles/container.module.css'
+import sText from '../../styles/text.module.css'
+import sButton from '../../styles/button.module.css'
 import { useSelector } from 'react-redux';
 
 export default function SectionImg(){
