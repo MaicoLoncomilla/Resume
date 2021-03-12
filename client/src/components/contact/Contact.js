@@ -58,41 +58,41 @@ export default function Contact(){
         <footer className={sContainer.containerSectionFooter} id="section-contact">
             <div style={{ backgroundImage: `url(${fondoContacto})` }} className={sContainer.containerImg}></div>
             <form className={sContainer.containerForm} onSubmit={(e) => sendEmail(e)}>
-                <h3 className={sText.textLabelH1} style={{ textAlign: "center" }}>{active ? "Hablemos" : "Contact Me"}</h3>
+                <h3 className={sText.textLabelH1} style={{ textAlign: "center" }}>{!active ? "Hablemos" : "Contact Me"}</h3>
                 <div className={sContainer.containerInput}>
                     <input
-                        placeholder={active ? "Nombre" : "First Name"}
+                        placeholder={!active ? "Nombre" : "First Name"}
                         value={state.name}
                         onChange={e => handleTextChange("name", e.target.value)}
                     />
                     <input
-                        placeholder={active ? "Apellido" : "Last Name"}
+                        placeholder={!active ? "Apellido" : "Last Name"}
                         value={state.lastName}
                         onChange={e => handleTextChange("lastName", e.target.value)}
                     />
                 </div>
                 <div className={sContainer.containerInput}>
                     <input
-                        placeholder={active ? "E-mail" : "Your Email"}
+                        placeholder={!active ? "E-mail" : "Your Email"}
                         value={state.email}
                         onChange={e => handleTextChange("email", e.target.value)}
                     />
                     <input
-                        placeholder={active ? "Tema" : "Subjet"}
+                        placeholder={!active ? "Tema" : "Subjet"}
                         value={state.asunto}
                         onChange={e => handleTextChange("asunto", e.target.value)}
                     />
                 </div>
                 <div className={sContainer.containerInput}>
                     <textarea
-                        placeholder={active ? "Mensaje" : "Message"}
+                        placeholder={!active ? "Mensaje" : "Message"}
                         value={state.mensaje}
                         onChange={e => handleTextChange("mensaje", e.target.value)}
                     />
                 </div>
                 <button type="submit" className={loadingButton ? sButton.button_loading : null}>
                     <span className={loadingButton ? sButton.span_loading : null}>
-                        {active ? "ENVIAR MENSAJE" : "SUBMIT MESSAGE"}
+                        {!active ? "ENVIAR MENSAJE" : "SUBMIT MESSAGE"}
                     </span>
                 </button>
                 <div className={sContainer.containerRedes}>

@@ -6,8 +6,8 @@ import { useDispatch, useSelector } from "react-redux";
 import api from '../../redux/action-creator';
 import LanguageIcon from '@material-ui/icons/Language';
 import DescriptionIcon from '@material-ui/icons/Description';
-import cvEspañol from '../../assets/cv/maicoloncomillaCV_Español.pdf';
-import cvIngles from '../../assets/cv/maicoloncomillaCV_English.pdf';
+import cvEspañol from '../../assets/cv/maicoloncomillaCV_Front.pdf';
+import cvIngles from '../../assets/cv/maicoloncomillaCV_Frontend.pdf';
 
 export default function Header(){
 
@@ -27,12 +27,12 @@ export default function Header(){
                 onClick={() => changeLanguage()} >
                 <div className={sContainer.containerIconA}>
                     <LanguageIcon className={sText.Icon} />
-                    <p className={sText.textA}>{active ? "English" : "Spanish"}</p>
+                    <p className={sText.textA}>{!active ? "English" : "Spanish"}</p>
                 </div>
             </div>
             <form
                 className={sContainer.containerFormHeader}
-                action={active ? cvEspañol : cvIngles}
+                action={!active ? cvEspañol : cvIngles}
                 method="GET"
                 target="_blank"
                 >
@@ -40,7 +40,7 @@ export default function Header(){
                     <DescriptionIcon className={sText.Icon} />
                     <button
                         className={sButton.buttonCV}
-                        type="submit">{active ? "Descargar CV" : "Download CV"}
+                        type="submit">{!active ? "Descargar CV" : "Download CV"}
                     </button>
                 </div>
             </form>

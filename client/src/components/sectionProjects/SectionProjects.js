@@ -14,7 +14,7 @@ export default function SectionProjects(){
                     key={index}
                     direction={el.direction}
                     title={el.title}
-                    description={active ? el.descriptionEs : el.descriptionEn}
+                    description={!active ? el.descriptionEs : el.descriptionEn}
                     front={el.front}
                     back={el.back}
                     database={el.database}

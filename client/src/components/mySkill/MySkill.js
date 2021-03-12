@@ -15,7 +15,7 @@ export default function MySkill() {
 
     return (
         <section className={sContainer.containerSectionMySkill} id="section-mySkill">
-            <h2 className={sText.textMySkill}>{active ? "Habilidades" : "My Skills"}</h2>
+            <h2 className={sText.textMySkill}>{!active ? "Habilidades" : "My Skills"}</h2>
             <div className={sContainer.containerSectionFrontBack}>
                 <div className={sContainer.containerMainProgress}>
                     <h2 className={sText.textMySkillFrontBack}>Front End</h2>
