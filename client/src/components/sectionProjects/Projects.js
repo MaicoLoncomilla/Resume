@@ -8,7 +8,7 @@ export default function Projects({ title, description, front, back, database, di
     const active = useSelector(state => state.active)
     return (
         <div className={sContainer.containerSectionProjects} style={{ flexDirection: direction }}>
-            <img src={image} alt="imageProject" />
+            <img src={image} loading="lazy" alt="imageProject" />
             <div className={sContainer.containerSectionProjectsDiv}>
                 <p className={sText.textP}>{!active ? "Titulo: " : "Title: "}
                     <label className={sText.textLabel}> {title}</label>

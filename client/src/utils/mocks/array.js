@@ -1,8 +1,21 @@
 import imageWalletFly from '../../assets/images/Icon.png';
 import imageWultur from '../../assets/images/wultur.png';
 import imageFacebook from '../../assets/images/facebook.png';
+import Trello from '../../assets/images/Trello_logo.png';
 
 export const arrayProjects = [
+    {
+        direction: 'row',
+        title: "Trello",
+        descriptionEn: 'Project inspired by Trello, taking the main functionalities such as, Create new boards, add tasks, move columns, rows, invite users to the boards, add images, comments, and more ... ',
+        descriptionEs: 'Proyecto inspirado en Trello, tomando las principales funcionalidades como, Crear nuevos tableros, añadir tareas, mover columnas, filas, invitar usuarios a los tableros, agregar imagenes, comentarios, y mas ...',
+        front: 'React js, Redux, CSS (vanilla), JavaScript',
+        back: 'Node Js, Express, Sequelize, JWT',
+        database: "MySql",
+        link: 'https://maicoloncomilla.github.io/Trello',
+        image: Trello,
+        linkGithub: 'https://github.com/MaicoLoncomilla/Trello'
+    },
     {
         direction: 'row',
         title: 'Wultur',

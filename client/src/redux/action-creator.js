@@ -1,8 +1,9 @@
 import axios from 'axios';
 
 const actionCreator = {
-    IDIOMA: "IDIOMA",
 
+    IDIOMA: "IDIOMA",
+    
     sendEmail: function (data, alert, active) {
         return dispatch => {
             const promise = axios.post('https://proyectomaico.glitch.me/', data)
